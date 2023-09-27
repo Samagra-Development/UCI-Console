@@ -39,7 +39,7 @@ export class ConversationAddComponent implements OnInit {
     verifyAllItemsModal = false;
     conversationId;
     selectedLogicIndex;
-    startMinDate = new Date(moment().subtract(1, 'd').format('YYYY-MM-DD'));
+    startMinDate = new Date(moment().format('YYYY-MM-DD'));
     endMinDate;
     allChecked: boolean;
     isSubmit: boolean;
@@ -58,7 +58,7 @@ export class ConversationAddComponent implements OnInit {
         private toasterService: ToasterService,
         public dialog: MatDialog,
     ) {
-        this.endMinDate = new Date(moment().add(1, 'days').format('YYYY-MM-DD'));
+        this.endMinDate = new Date(moment().format('YYYY-MM-DD'));
     }
 
     ngOnInit() {

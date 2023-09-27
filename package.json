@@ -26,7 +26,7 @@
     "@angular/router": "^14.3.0",
     "core-js": "^2.5.4",
     "moment": "^2.22.1",
-    "ng2-semantic-ui-v9": "0.0.3",
+    "ng2-semantic-ui-v9": "0.0.6",
     "rxjs": "~6.6.7",
     "tslib": "^2.0.0",
     "zone.js": "~0.11.8"
